@@ -10,6 +10,12 @@ h1 {
     font-size: 4.5em;
 }
 
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 80%;
+  }
+}
+
 a {
     text-decoration: none;
 }

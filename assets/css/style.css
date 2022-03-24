@@ -274,6 +274,7 @@ ul {
  position: relative;
  padding: 10rem;
  background: var(--footer-bg);
+ padding-right: 0;
 }
 
 .footer .content h3 {

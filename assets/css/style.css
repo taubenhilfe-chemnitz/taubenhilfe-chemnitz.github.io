@@ -79,7 +79,7 @@ ul {
   --blue: #569cfa;
   --orange: #ffcc81;
   --cyan: #7ed1e2;
-  --main-bg: rgba(255,255,255,
+  --main-bg: rgba(255,255,255,);
 }
 
 @font-face {

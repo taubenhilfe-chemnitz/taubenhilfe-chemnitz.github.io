@@ -18,6 +18,10 @@ ul {
     list-style: none;
 }
 
+.line-break{
+  display: none;
+}
+
 .placeholder {
   height: 20em;
 }
@@ -324,9 +328,14 @@ ul {
   .copyright {
     font-size: 75%;
   }
+  
   .waves {
     height:40px;
     min-height:40px;
+  }
+  
+  .line-break {
+    display: inline;
   }
 }
 

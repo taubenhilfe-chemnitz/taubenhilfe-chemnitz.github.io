@@ -324,6 +324,10 @@ ul {
   .copyright {
     font-size: 75%;
   }
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
 }
 
 @media only screen and (max-width: 803px) {

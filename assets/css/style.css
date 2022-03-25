@@ -127,7 +127,7 @@ ul {
   padding: 10px;
   margin: 20px;
   color: #ffffff;
-  border: 5px #fff solid;
+  border: 5px #ffffff solid;
   transition: 0.5s;
 }
 
@@ -270,7 +270,7 @@ ul {
 }
 
 .footer .content {
- color: #fff;
+ color: #ffffff;
  z-index: 2;
  position: relative;
  padding: 10rem;
@@ -289,7 +289,7 @@ ul {
   text-decoration: none;
   color: #ffffff;
   font-size: 140%;
-  border-bottom: 1px #fff dotted;
+  border-bottom: 1px #ffffff dotted;
   margin-left: 75px;
 }
 

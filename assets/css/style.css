@@ -31,6 +31,7 @@ ul {
 }
 
 .main h1 {
+  animation: 0.25s ease-in-out slideInFromLeft;
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
@@ -327,4 +328,13 @@ ul {
   h1 {
     display: none;
   }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-3%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }

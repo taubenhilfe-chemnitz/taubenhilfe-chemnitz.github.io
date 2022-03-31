@@ -6,7 +6,7 @@
 
 body {
   background: var(--bg);
-  font-family: "Source Sans Pro", Helvetica;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   color: #ffffff;
 }
 
@@ -101,12 +101,12 @@ ul {
 
 @font-face {
  font-family: "Source Sans Pro";
- src: local("../fonts/SourceSansPro.woff2");
+ src: url("../fonts/SourceSansPro.woff2");
 }
 
 @font-face {
  font-family: "Indie Flower";
- src: local("../fonts/IndieFlower.woff2");
+ src: url("../fonts/IndieFlower.woff2");
 }
 
 /* WARNING:menu  */

@@ -354,15 +354,15 @@ ul {
   .placeholder_small {
     height: 7em;
   }
-  
-  .placeholder_banner{
-    height: 7em;
-  }
 }
 
 @media only screen and (max-width: 803px) {
   h1 {
     display: none;
+  }
+  
+  .placeholder_banner{
+    height: 7em;
   }
 }
 

@@ -83,7 +83,6 @@ ul {
   --blue: #569cfa;
   --orange: #ffcc81;
   --cyan: #7ed1e2;
-  --main-bg:invert(88%) sepia(18%) saturate(238%) hue-rotate(94deg) brightness(107%) contrast(102%);
 }
 
 @font-face {

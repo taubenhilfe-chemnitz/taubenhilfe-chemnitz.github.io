@@ -57,11 +57,17 @@ ul {
   }
 }
 
-.main .content p, img {
+.main .content p, img :not(.numb) {
   font-size: 25px;
   margin-left: 2.5%;
   margin-right: 2.5%;
   color: #000000;
+}
+
+#number {
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 0.25em;
 }
 
 .main .content a {

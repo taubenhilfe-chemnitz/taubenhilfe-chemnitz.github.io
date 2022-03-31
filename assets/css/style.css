@@ -297,7 +297,7 @@ ul {
  padding-right: 0;
 }
 
-.footer .content h3 {
+.footer .content h2 {
   font-size: 2em;
   font-weight: 600;
   line-height: 1.65;
@@ -335,7 +335,7 @@ ul {
     font-size: 75%;
   }
 
-  .footer .content h3 {
+  .footer .content h2 {
     font-size: 75%;
   }
 

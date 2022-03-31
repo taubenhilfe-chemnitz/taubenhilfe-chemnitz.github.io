@@ -97,12 +97,12 @@ ul {
 
 @font-face {
  font-family: "Source Sans Pro";
- src: url("../fonts/SourceSansPro.woff2");
+ src: local("../fonts/SourceSansPro.woff2");
 }
 
 @font-face {
  font-family: "Indie Flower";
- src: url("../fonts/IndieFlower.woff2");
+ src: local("../fonts/IndieFlower.woff2");
 }
 
 /* WARNING:menu  */

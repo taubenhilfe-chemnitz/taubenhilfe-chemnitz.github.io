@@ -338,6 +338,14 @@ ul {
   .line-break {
     display: inline;
   }
+  
+  .placeholder {
+    height: 7.5em;
+  }
+  
+  .placeholder_small {
+    height: 7em;
+  }
 }
 
 @media only screen and (max-width: 803px) {

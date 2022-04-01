@@ -226,7 +226,8 @@ ul {
   }
   .menu a:hover {
     border: 2.5px #ffffff solid;
-    color: var(--selection-color);
+    color: #ffffff;
+    background: transparent;
     transform: scale(1.25);
   }
 

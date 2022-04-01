@@ -146,7 +146,6 @@ ul {
   padding: 10px;
   margin: 20px;
   color: #ffffff;
-  border: 5px #ffffff solid;
   transition: 0.5s;
 }
 
@@ -228,7 +227,8 @@ ul {
   .menu a:hover {
     background: #ffffff;
     color: var(--selection-color);
-    border: 5px var(--selection-color) solid;
+    border: 2px var(--selection-color) solid;
+    padding: 15px;
   }
 
   .hamb {

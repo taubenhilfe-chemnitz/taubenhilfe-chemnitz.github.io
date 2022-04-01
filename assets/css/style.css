@@ -92,16 +92,6 @@ img :not(.numb) {
     --cyan: #7ed1e2;
 }
 
-@font-face {
-    font-family: "Source Sans Pro";
-    src: url("../fonts/SourceSansPro.woff2");
-}
-
-@font-face {
-    font-family: "Indie Flower";
-    src: url("../fonts/IndieFlower.woff2");
-}
-
 /* WARNING:menu  */
 
 .header {
@@ -398,4 +388,14 @@ img :not(.numb) {
     100% {
         transform: translateY(0);
     }
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro.woff2");
+}
+
+@font-face {
+    font-family: "Indie Flower";
+    src: url("../fonts/IndieFlower.woff2");
 }

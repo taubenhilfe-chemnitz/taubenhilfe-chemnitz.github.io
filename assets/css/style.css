@@ -355,8 +355,12 @@ ul {
   .placeholder_small {
     height: 7em;
   }
+  
+  .menu a:hover {
+  background-color: var(--selection-color);
+  }
 }
-
+  
 @media only screen and (max-width: 803px) {
   h1 {
     display: none;

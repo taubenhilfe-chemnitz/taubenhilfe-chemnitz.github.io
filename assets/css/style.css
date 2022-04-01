@@ -225,10 +225,9 @@ ul {
     float: left;
   }
   .menu a:hover {
-    background: #ffffff;
+    border: 2.5px #ffffff solid;
     color: var(--selection-color);
-    border: 2px var(--selection-color) solid;
-    padding: 15px;
+    transform: scale(1.25);
   }
 
   .hamb {

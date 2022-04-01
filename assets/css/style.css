@@ -8,7 +8,7 @@ body {
     background: var(--bg);
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #ffffff;
-    scrollbar-color: hsla(0,0%,100%,0.25) transparent;
+    scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg)
 }
 
 h1 {
@@ -91,6 +91,8 @@ img :not(.numb) {
     --blue: #569cfa;
     --orange: #ffcc81;
     --cyan: #7ed1e2;
+    --scrollbar-color: hsla(0, 0%, 100%, 0.25);
+    --scrollbar-bg: transparent;
 }
 
 /* WARNING:menu  */

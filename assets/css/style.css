@@ -232,16 +232,6 @@ img :not(.numb) {
     animation-duration: 20s;
 }
 
-@keyframes wave {
-    0% {
-        transform: translate3d(-90px, 0, 0);
-    }
-
-    100% {
-        transform: translate3d(85px, 0, 0);
-    }
-}
-
 /* WARNING:footer  */
 
 .footer {
@@ -286,6 +276,16 @@ img :not(.numb) {
     color: #ffffff33;
     position: absolute;
     bottom: 0;
+}
+
+.copyright p {
+    margin-bottom: 10px;
+}
+
+.copyright span {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px #ffffff33 solid;
 }
 
 @media only screen and (max-width: 768px) {
@@ -387,6 +387,16 @@ img :not(.numb) {
 
     100% {
         transform: translateY(0);
+    }
+}
+
+@keyframes wave {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
     }
 }
 

@@ -289,6 +289,29 @@ img :not(.numb) {
     border-left: 1px #ffffff33 solid;
 }
 
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background-color: auto;
+    background-color: var(--scrollbar-bg, auto)
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px auto;
+    border: 2px solid var(--scrollbar-bg, auto);
+    background: var(--scrollbar-color)
+}
+
+::-webkit-scrollbar-corner {
+    background-color: auto;
+    background-color: var(--scrollbar-bg, auto)
+}
+
 @media only screen and (max-width: 768px) {
     .footer .content {
         padding-left: 25px;

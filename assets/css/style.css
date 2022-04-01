@@ -8,6 +8,7 @@ body {
     background: var(--bg);
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #ffffff;
+    scrollbar-color: hsla(0,0%,100%,0.25) transparent;
 }
 
 h1 {

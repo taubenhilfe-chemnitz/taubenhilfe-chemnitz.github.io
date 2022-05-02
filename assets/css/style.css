@@ -333,6 +333,10 @@ img :not(.numb) {
     .copyright {
         font-size: 75%;
     }
+    
+    .copyright p {
+    font-size: 80%;
+    }
 
     .waves {
         height: 40px;
